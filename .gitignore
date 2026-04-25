@@ -1,0 +1,17 @@
+# Dataset
+household_power_consumption.csv
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+env/
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+*.log
