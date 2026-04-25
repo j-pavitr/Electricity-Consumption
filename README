@@ -1,0 +1,115 @@
+# ⚡ Electricity Consumption Forecasting
+
+## 📌 Overview
+
+This project focuses on forecasting household electricity consumption using time series models such as **ARIMA** and **SARIMA**.
+The objective is to analyze historical consumption patterns and generate accurate future predictions for better energy planning.
+
+---
+
+## 📊 Dataset
+
+* **Name:** Household Electric Power Consumption
+* **Source:** Kaggle
+* **Dataset Link:** https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set
+* **Reference Notebook:** https://www.kaggle.com/code/nitishviraktamath/household-power-consumption
+* **Size:** ~2 million records (minute-level time series data)
+
+### 📥 How to Use Dataset
+
+1. Download the dataset from the link above
+2. Extract the file
+3. Place it in the following directory:
+
+```text
+data/household_power_consumption.csv
+```
+
+> ⚠️ Note: The dataset is not included in this repository due to GitHub's 100MB file size limit.
+
+---
+
+## ⚙️ Features
+
+* Data preprocessing and cleaning
+* Handling missing values
+* Time series visualization
+* ARIMA and SARIMA model implementation
+* Forecasting future electricity consumption
+
+---
+
+## 🧠 Tech Stack
+
+* Python
+* Pandas, NumPy
+* Statsmodels
+* Matplotlib
+
+---
+
+## 📁 Project Structure
+
+```
+Electricity-Consumption/
+│
+├── main.py
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── images/
+│   └── forecast.png
+└── data/   (dataset should be placed here)
+```
+
+---
+
+## 🚀 How to Run
+
+```bash
+git clone https://github.com/j-pavitr/Electricity-Consumption.git
+cd Electricity-Consumption
+pip install -r requirements.txt
+python main.py
+```
+
+---
+
+## 📈 Forecast Result
+
+<p align="center">
+  <img src="images/forecast.png" width="700">
+</p>
+
+<p align="center">
+Forecasted electricity consumption using SARIMA model
+</p>
+
+---
+
+## 📊 Model Insights
+
+* ARIMA captures overall trend in time series data
+* SARIMA improves predictions by incorporating seasonality
+* Model performance evaluated using statistical metrics like AIC/BIC
+
+---
+
+## 🧩 Future Improvements
+
+* Hyperparameter tuning
+* Real-time forecasting integration
+* Deployment as a web application
+* Comparison with advanced models (LSTM, Prophet)
+
+---
+
+## 👨‍💻 Author
+
+**Pavitr**
+
+---
+
+## ⭐ Acknowledgment
+
+Dataset provided by Kaggle and UCI Machine Learning Repository
